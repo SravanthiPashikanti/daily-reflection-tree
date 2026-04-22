@@ -1,0 +1,40 @@
+{
+  "question": "How are you feeling today?",
+  "options": {
+    "Stressed": {
+      "question": "What is the main cause?",
+      "options": {
+        "Work": {
+          "question": "What about work is stressful?",
+          "options": {
+            "Too many tasks": {
+              "action": "List top 3 priorities and focus on one",
+              "reflection": "What truly matters today?"
+            },
+            "Deadlines": {
+              "action": "Break tasks into smaller chunks",
+              "reflection": "What is the smallest step I can take now?"
+            }
+          }
+        },
+        "Personal": {
+          "action": "Take a short break and write your thoughts",
+          "reflection": "What is bothering me emotionally?"
+        }
+      }
+    },
+    "Unproductive": {
+      "question": "What is the issue?",
+      "options": {
+        "Low energy": {
+          "action": "Take rest or do light work",
+          "reflection": "Did I rest enough today?"
+        },
+        "Distracted": {
+          "action": "Remove distractions and set a 25-min timer",
+          "reflection": "What is pulling my attention away?"
+        }
+      }
+    }
+  }
+}
